@@ -5,6 +5,7 @@ body{
     background-image: url('../bgimg.jpg');
     background-size: cover;
     width: 100%;
+    background-repeat:no-repeat;
 }
 ul{
     display: flex;
