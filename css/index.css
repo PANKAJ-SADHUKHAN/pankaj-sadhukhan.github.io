@@ -88,12 +88,24 @@ ul li a.active {
 .custom-button:hover i {
     color: #fff; /* Change icon color on hover */
 }
-
-
+.img-content{
+    display: flex;
+    justify-content: center;
+}
+.item1{
+    width: 20.3%;
+    -webkit-mask-repeat: no-repeat; 
+}
+.item1 img{
+    width:100%
+}
+.one{
+    -webkit-mask-image:url(data:image/svg+xml;base64,PCEtLT94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/LS0+CiAgICAgICAgICAgICAgPHN2ZyBpZD0ic3ctanMtYmxvYi1zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSI+CiAgICAgICAgICAgICAgICAgICAgPGRlZnM+IAogICAgICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9InN3LWdyYWRpZW50IiB4MT0iMCIgeDI9IjEiIHkxPSIxIiB5Mj0iMCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBpZD0ic3RvcDEiIHN0b3AtY29sb3I9InJnYmEoMjQ4LCAxMTcsIDU1LCAxKSIgb2Zmc2V0PSIwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHN0b3AgaWQ9InN0b3AyIiBzdG9wLWNvbG9yPSJyZ2JhKDI1MSwgMTY4LCAzMSwgMSkiIG9mZnNldD0iMTAwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9InVybCgjc3ctZ3JhZGllbnQpIiBkPSJNMjQuNSwtMjAuN0MzMC43LC0xMS44LDMzLjksLTEuNywzMi45LDkuNEMzMS45LDIwLjQsMjYuNiwzMi40LDE3LjgsMzYuM0M5LjEsNDAuMywtMy4yLDM2LjMsLTE0LjIsMzAuNkMtMjUuMiwyNC45LC0zNC44LDE3LjUsLTM4LjMsNy4zQy00MS44LC0zLC0zOS4yLC0xNi4xLC0zMS44LC0yNS4zQy0yNC40LC0zNC41LC0xMi4yLC0zOS44LC0xLjUsLTM4LjZDOS4yLC0zNy40LDE4LjMsLTI5LjcsMjQuNSwtMjAuN1oiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDUwIDUwKSIgc3Ryb2tlLXdpZHRoPSIwIiBzdHlsZT0idHJhbnNpdGlvbjogMC4zczsiIHN0cm9rZT0idXJsKCNzdy1ncmFkaWVudCkiPjwvcGF0aD4KICAgICAgICAgICAgICA8L3N2Zz4=);
+}
 #particles-js {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
@@ -166,6 +178,9 @@ ul li a.active {
         font-size: 13px;
         padding: 6px 14px;
     }
+    .item1{
+        width:36.3%
+    }
 }
 
 @media (max-width: 400px) {
@@ -175,6 +190,9 @@ ul li a.active {
     .custom-button {
         font-size: 12px;
         padding: 5px 12px;
+    }
+    .item1{
+        width:36.3%
     }
 }
 
@@ -186,6 +204,6 @@ ul li a.active {
 
 @media (max-width: 480px) {
     li {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 }
