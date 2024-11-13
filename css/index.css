@@ -208,6 +208,6 @@ ul li a.active {
 
 @media (max-width: 480px) {
     li {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
 }
