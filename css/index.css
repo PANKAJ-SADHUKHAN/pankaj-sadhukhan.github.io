@@ -32,7 +32,7 @@ ul li a{
 }
 ul li a:hover {
     text-decoration: none;
-    color: blueviolet; /* Change text color on hover */ /* Background color on hover */
+    color: #ffbb00; /* Change text color on hover */ /* Background color on hover */
     /* border-radius: 5px; Optional rounded corners on hover */
 }
 ul li a.active {
