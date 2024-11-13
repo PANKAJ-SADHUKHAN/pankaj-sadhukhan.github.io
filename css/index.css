@@ -9,6 +9,7 @@ body{
     background-repeat: no-repeat;
     width: 100%;
 }
+
 ul{
     display: flex;
     justify-content: center;
@@ -16,6 +17,7 @@ ul{
     margin: 0;
     padding: 0;
     font-family:'Doto';
+    position:sticky;
 }
 li{
     display: inline;
@@ -26,22 +28,24 @@ li{
 ul li a{
     color: white;
     transition: color 0.3s ease, background-color 0.3s ease;
+
 }
 ul li a:hover {
     text-decoration: none;
-    color: #ffbb00; /* Change text color on hover */ /* Background color on hover */
+    color: blueviolet; /* Change text color on hover */ /* Background color on hover */
     /* border-radius: 5px; Optional rounded corners on hover */
 }
 ul li a.active {
-    color: #ffbb00;
+    color:#ffbb00 ;
 }
 
 .middle-section{
     
-    padding-top: 80px;
+    padding-top: 10px;
     display: flex;
     justify-content: center;
     color: aliceblue;
+    margin-bottom: 30px;
     
 }
 .content-box{
@@ -93,7 +97,7 @@ ul li a.active {
     justify-content: center;
 }
 .item1{
-    width: 20.3%;
+    width: 15%;
     -webkit-mask-repeat: no-repeat; 
 }
 .item1 img{
